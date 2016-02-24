@@ -69,8 +69,8 @@ class ProxyHandler(tornado.web.RequestHandler):
                     raise e
                 raise e
 
-    def compute_etag(self):
-        return None  # disable tornado Etag
+    #def compute_etag(self):
+    #    return None  # disable tornado Etag, if don't want to have radio
 
     #def _log(self):
     #    pass
